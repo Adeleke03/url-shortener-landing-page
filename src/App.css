@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+
+:root {
+   
+  --Cyan: hsl(180, 66%, 49%);
+  --DarkViolet: hsl(257, 27%, 26%);
+  --Red: hsl(0, 87%, 67%);
+  --Gray: hsl(0, 0%, 75%);
+  --GrayishViolet: hsl(257, 7%, 63%);
+  --VeryDarkBlue: hsl(255, 11%, 22%);
+ --VeryDarkViolet: hsl(260, 8%, 14%);
+}
+
+
+
+@theme {
+  --font-poppins: "Poppins", serif;
+  /* --color-cyan:hsl(180, 66%, 49%); */
+  
+}
+
+.wrapper{
+  @apply w-full  px-[14px] md:px-[40px] py-[10px] lg:px-[80px] xl:px-[80px] lg:py-[16px]   mx-auto 
+  /* @apply w-full mx-auto px-[20px] md:px-[40px] py-[10px] lg:px-[90px] xl:px-[130px] lg:py-[16px]; */
+
+}
+
+.bg-shortener-d {
+  background-image: url('./assets/bg-shorten-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: cover; */
+  background-size: contain;
+}
+
+.bg-shortener-m {
+  background-image: url('./assets/bg-shorten-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  
+}
+
+.bg-boost-d {
+  background-image: url('./assets/bg-boost-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-boost-m {
+  background-image: url('./assets/bg-boost-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
