@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Menu from '../components/menu';
-import AuthBtn from '../components/AuthBtn';
+import Menu from '../components/Menu.jsx';
+import AuthBtn from '../components/AuthBtn.jsx';
 import menuImg from "../assets/ci_hamburger-lg.png";
 
 const Navbar = () => {
